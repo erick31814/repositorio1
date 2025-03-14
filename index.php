@@ -1,12 +1,17 @@
 <?php 
 
 // Nos conectamos a la base de datos
-try {
-	$conexion = new PDO('mysql:host=localhost;dbname=curso_paginacion', 'root', '');
-} catch (PDOException $e) {
-	echo 'ERROR: '. $e->getMessage();
-	die();
-}
+// Comentario de prueba para hacer un commit y hacer ramas y asi
+
+/**
+
+*try {
+*	$conexion = new PDO('mysql:host=localhost;dbname=curso_paginacion', 'root', '');
+*} catch (PDOException $e) {
+*	echo 'ERROR: '. $e->getMessage();
+*	die();
+*}
+*/
 
 // Establecemos el numero de pagina en la que el usuario se encuentra.
 # Esto lo hacemos por el metodo GET, si no hay ningun valor entonces le asignamos la pagina 1.
