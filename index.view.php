@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="contenedor">
-		<h1>Articulos</h1>
+		<h1>CAMBIO DE TEXTO PARA EN LA RAMA MAIN</h1>
 		<section class="articulos">
 			<ul>
 				<?php foreach ($articulos as $articulo): ?>
