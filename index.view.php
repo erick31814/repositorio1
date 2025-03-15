@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="contenedor">
-		<h1>Articulos</h1>
+		<h1>otro cambio en linea 12 </h1>
 		<section class="articulos">
 			<ul>
 				<?php foreach ($articulos as $articulo): ?>
