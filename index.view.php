@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div class="contenedor">
-		<h1>linea 12 desde main</h1>
+		<h1>la fokin maquina de programar tiene sueñito</h1>
 		<section class="articulos">
 			<ul>
 				<?php foreach ($articulos as $articulo): ?>
